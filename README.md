@@ -8,7 +8,7 @@
 
 ### Introduction
 
-For this challenge, you will be working on Flataculties, an app where you can vote for the cutest animal! You will use a local API and build out the frontend for our app, Flatacuties.
+For this challenge, you will be working on `**Flataculties**`, an app where you can vote for the cutest animal! You will use a local API and build out the frontend for our app, Flatacuties.
 
 The instructions below will walk you through the process of ideation and planning your app: deciding on your user interface, planning how the information will be laid out on the page, etc. You should work through all the planning steps before you start doing any coding.
 
@@ -49,5 +49,5 @@ Make sure to commit your work to save your progress before attempting the bonus 
 2. Have a form for adding animals.
 
 # Author & License
-* This project is authored by [Helder Lucau](https://github.com/Helder-Lucau).
+* This project code is authored by [Helder Lucau](https://github.com/Helder-Lucau).
 * Licensed under the terms of **MIT License**
