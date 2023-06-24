@@ -27,8 +27,7 @@ For this project, you must:
 Once you have the plan in place for the application you want to build take the following steps:
 
 * Create a new project folder.
-* Create a new GitHub repository **(NB: ENSURE IT IS PRIVATE)**.
-* Add your TM as a contributor to the project. **(This is only for grading purposes. We promise we won't steal your code)**
+* Create a new GitHub repository.
 * Please make sure you regularly commit to the repository.
 
 ## Project Guidelines
