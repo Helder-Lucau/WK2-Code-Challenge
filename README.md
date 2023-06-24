@@ -49,5 +49,5 @@ Make sure to commit your work to save your progress before attempting the bonus 
 2. Have a form for adding animals.
 
 # Author & License
-* This project code is authored by [Helder Lucau](https://github.com/Helder-Lucau).
+* This project code files is authored by [Helder Lucau](https://github.com/Helder-Lucau).
 * Licensed under the terms of **MIT License**
