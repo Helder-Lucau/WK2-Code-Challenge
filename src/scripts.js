@@ -1,5 +1,9 @@
-//Load the DOM content
-document.addEventListener("DOMContentLoaded", () => {   
+//Load the DOM content and stop the form submitting using prevent Default
+document.addEventListener("DOMContentLoaded", () => { 
+    let form = document.getElementById("add-form")
+    form.addEventListener("submit", (e) => {
+        e.preventDefault()
+    });
 })
 
 //Fetch animal data from db.json 
@@ -15,18 +19,17 @@ function printAnimalData(animal) {
 
     let ul = document.querySelector('#animal-list')
     
-    let list =  document.createElement("li")
+    let list =  document.createElement("li");
     list.textContent = animal.name;
-    ul.append(list)    
+    ul.append(list)   
+    
 }
 
+//Display animal details by clicking on the name
+function displayAnimalDetails(){
 
+}
+//Add new animal 
+function addNewAnimal(){
 
-
-// function addNewAnimal() {
-//     let form = document.getElementById("add-form")
-//     form.addEventListener("submit", (e) => {
-//         e.preventDefault()
-//     });
-// }
-// addNewAnimal();
+}
