@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,300&family=Arsenal&family=IBM+Plex+Sans+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Sans:wght@700&family=Playfair+Display&family=Rajdhani:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    display: flex;
+    padding: 0px 5%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-family: 'Playfair Display', serif;
+}
+.container {
+    background-image: url('../images/monkey.jpg');
+    width: auto;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form-container{
+    display: block;
+    padding: 100px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
