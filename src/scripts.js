@@ -1,9 +1,5 @@
-//Load the DOM content and stop the form submitting using prevent Default
+//Load the DOM content 
 document.addEventListener("DOMContentLoaded", () => { 
-    let form = document.getElementById("add-form")
-    form.addEventListener("submit", (e) => {
-        e.preventDefault()
-    });
 })
 
 //Fetch animal data from db.json 
@@ -28,8 +24,25 @@ function printAnimalData(animal) {
 //Display animal details by clicking on the name
 function displayAnimalDetails(){
 
-}
-//Add new animal 
-function addNewAnimal(){
 
 }
+//Add new animal to our db.json 
+function addNewAnimal(){
+    
+    let form = document.getElementById("add-form")
+    form.addEventListener("submit", (e) => {
+        e.preventDefault()
+
+        const formData = new FormData(form);
+        const data = Object.fromEntries(formData);
+        
+        fetch('http://localhost:3000/characters',{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+    });
+}
+addNewAnimal();
